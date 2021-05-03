@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.FilmsFragDetails">
+
+    <TextView
+        android:id="@+id/txtForFilmsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txtForFilmsOriginalTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtForFilmsOriginalTitleRomanised"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtForFilmsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:id="@+id/txtForFilmsDirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:id="@+id/txtForFilmsProducer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:id="@+id/txtForFilmsReleaseDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:id="@+id/txtForFilmsRunningTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:id="@+id/txtForFilmsRtScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp" />
+
+</LinearLayout>
